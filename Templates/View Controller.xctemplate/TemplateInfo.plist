@@ -66,6 +66,27 @@
 				<string>UICollectionViewController</string>
 			</array>
 		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>XIB</string>
+			<key>Name</key>
+			<string>Also create XIB file</string>
+			<key>Description</key>
+			<string>Whether to create a XIB file with the same name</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>RequiredOptions</key>
+			<dict>
+				<key>viewControllerSubclass</key>
+				<array>
+					<string>UIViewController</string>
+				</array>
+			</dict>
+			<key>Default</key>
+			<string>false</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
