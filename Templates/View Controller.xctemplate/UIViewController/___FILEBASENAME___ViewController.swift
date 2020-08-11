@@ -31,7 +31,7 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_scen
         viewController.interactor = interactor
         viewController.router = router
         interactor.presenter = presenter
-        presenter.viewController = viewController
+        presenter.displayDelegate = viewController
         router.viewController = viewController
         router.dataStore = interactor
     }
@@ -39,7 +39,6 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_scen
     // MARK: View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // doSomething()
     }
 
     // MARK: Display logic

@@ -39,7 +39,6 @@ class ___VARIABLE_sceneName___ViewController: UIViewController, ___VARIABLE_scen
     // MARK: View lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        // doSomething()
     }
 
     // MARK: Display logic
