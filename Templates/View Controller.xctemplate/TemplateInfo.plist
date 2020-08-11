@@ -68,13 +68,23 @@
 		</dict>
 		<dict>
 			<key>Identifier</key>
-			<string>XIB</string>
+			<string>userInterface</string>
+			<key>Required</key>
+			<true/>
 			<key>Name</key>
-			<string>Also create XIB file</string>
+			<string>User interface:</string>
 			<key>Description</key>
-			<string>Whether to create a XIB file with the same name</string>
+			<string>User interface creation method</string>
 			<key>Type</key>
-			<string>checkbox</string>
+			<string>popup</string>
+			<key>Default</key>
+			<string>None</string>
+			<key>Values</key>
+			<array>
+				<string>None</string>
+				<string>XIB</string>
+				<string>ViewCode</string>
+			</array>
 			<key>RequiredOptions</key>
 			<dict>
 				<key>viewControllerSubclass</key>
@@ -82,10 +92,6 @@
 					<string>UIViewController</string>
 				</array>
 			</dict>
-			<key>Default</key>
-			<string>false</string>
-			<key>NotPersisted</key>
-			<true/>
 		</dict>
 	</array>
 	<key>Platforms</key>
