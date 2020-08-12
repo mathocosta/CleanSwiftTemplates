@@ -4,5 +4,5 @@
 
 import Foundation
 
-class ___VARIABLE_sceneName___Worker {
+class ___FILEBASENAMEASIDENTIFIER___ {
 }

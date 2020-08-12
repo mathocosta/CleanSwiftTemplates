@@ -4,7 +4,7 @@
 
 import UIKit
 
-class ___VARIABLE_sceneName___View: UIView {
+class ___FILEBASENAMEASIDENTIFIER___: UIView {
 
     /*
     // Only override draw() if you perform custom drawing.
