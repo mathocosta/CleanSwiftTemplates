@@ -15,7 +15,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_sceneName___
     // MARK: Lifecycle
     init() {
         super.init(nibName: nil, bundle: nil)
-        setup()
+        setupScene()
     }
 
     required init?(coder aDecoder: NSCoder) {
@@ -23,7 +23,7 @@ class ___FILEBASENAMEASIDENTIFIER___: UIViewController, ___VARIABLE_sceneName___
     }
 
     // MARK: Setup
-    private func setup() {
+    private func setupScene() {
         let viewController = self
         let interactor = ___VARIABLE_sceneName___Interactor()
         let presenter = ___VARIABLE_sceneName___Presenter()
