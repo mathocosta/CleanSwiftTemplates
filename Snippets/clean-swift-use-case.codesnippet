@@ -10,17 +10,13 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>struct &lt;#Use Case#&gt; {
-        
         struct Request {
-            
         }
-        
+
         struct Response {
-            
         }
-        
+
         struct ViewModel {
-            
         }
 }</string>
 	<key>IDECodeSnippetIdentifier</key>
