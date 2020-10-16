@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>IDECodeSnippetCompletionPrefix</key>
+    <string>clean-swift presenter</string>
+    <key>IDECodeSnippetCompletionScopes</key>
+    <array>
+        <string>All</string>
+        <string>TopLevel</string>
+    </array>
+    <key>IDECodeSnippetContents</key>
+    <string>class &lt;#SceneName#&gt;Presenter: &lt;#SceneName#&gt;PresentationLogic {
+    weak var displayDelegate: &lt;#SceneName#&gt;DisplayLogic?
+}</string>
+    <key>IDECodeSnippetIdentifier</key>
+    <string>EFC298DE-C35D-4686-AFF4-B96FD1B5C3D0</string>
+    <key>IDECodeSnippetLanguage</key>
+    <string>Xcode.SourceCodeLanguage.Swift</string>
+    <key>IDECodeSnippetSummary</key>
+    <string></string>
+    <key>IDECodeSnippetTitle</key>
+    <string>Clean Swift - Presenter Implementation</string>
+    <key>IDECodeSnippetUserSnippet</key>
+    <true/>
+    <key>IDECodeSnippetVersion</key>
+    <integer>0</integer>
+    <key>Author</key>
+    <string>Matheus Costa (@mathocosta)</string>
+</dict>
+</plist>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>IDECodeSnippetCompletionPrefix</key>
+    <string>clean-swift router</string>
+    <key>IDECodeSnippetCompletionScopes</key>
+    <array>
+        <string>All</string>
+        <string>TopLevel</string>
+    </array>
+    <key>IDECodeSnippetContents</key>
+    <string>class &lt;#SceneName#&gt;Router: NSObject, &lt;#SceneName#&gt;RoutingLogic, &lt;#SceneName#&gt;DataPassing {
+    weak var viewController: &lt;#SceneName#&gt;ViewController?
+    var dataStore: &lt;#SceneName#&gt;DataStore?
+}</string>
+    <key>IDECodeSnippetIdentifier</key>
+    <string>65AFD8E5-DAFE-455D-97E2-E6B7366359CE</string>
+    <key>IDECodeSnippetLanguage</key>
+    <string>Xcode.SourceCodeLanguage.Swift</string>
+    <key>IDECodeSnippetSummary</key>
+    <string></string>
+    <key>IDECodeSnippetTitle</key>
+    <string>Clean Swift - Router Implementation</string>
+    <key>IDECodeSnippetUserSnippet</key>
+    <true/>
+    <key>IDECodeSnippetVersion</key>
+    <integer>0</integer>
+    <key>Author</key>
+    <string>Matheus Costa (@mathocosta)</string>
+</dict>
+</plist>
