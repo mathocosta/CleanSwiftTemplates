@@ -9,11 +9,11 @@ import UIKit
 //}
 
 protocol ___VARIABLE_sceneName___ConfigurationLogic {
-    func configure(viewController: ___VARIABLE_sceneName___ViewController)
+    func configure(viewController: ___VARIABLE_sceneName___CollectionViewController)
 }
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_sceneName___ConfigurationLogic {
-    func configure(viewController: ___VARIABLE_sceneName___ViewController) {
+    func configure(viewController: ___VARIABLE_sceneName___CollectionViewController) {
         let interactor = ___VARIABLE_sceneName___Interactor()
         let presenter = ___VARIABLE_sceneName___Presenter()
         let router = ___VARIABLE_sceneName___Router()
