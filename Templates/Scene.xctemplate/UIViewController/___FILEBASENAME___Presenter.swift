@@ -1,6 +1,5 @@
-//
 //  ___FILEHEADER___
-//
+
 import UIKit
 
 protocol ___VARIABLE_sceneName___PresentationLogic {

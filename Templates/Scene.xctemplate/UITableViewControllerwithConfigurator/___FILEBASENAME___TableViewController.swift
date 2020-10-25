@@ -13,25 +13,10 @@ class ___FILEBASENAMEASIDENTIFIER___: UITableViewController {
     // MARK: Lifecycle
     init() {
         super.init(nibName: nil, bundle: nil)
-        setupScene()
     }
 
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
-    }
-
-    // MARK: Setup
-    private func setupScene() {
-        let viewController = self
-        let interactor = ___VARIABLE_sceneName___Interactor()
-        let presenter = ___VARIABLE_sceneName___Presenter()
-        let router = ___VARIABLE_sceneName___Router()
-        viewController.interactor = interactor
-        viewController.router = router
-        interactor.presenter = presenter
-        presenter.displayDelegate = viewController
-        router.viewController = viewController
-        router.dataStore = interactor
     }
 
     // MARK: View lifecycle
