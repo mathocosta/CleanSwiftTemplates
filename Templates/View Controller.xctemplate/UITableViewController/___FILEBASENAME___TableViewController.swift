@@ -8,11 +8,11 @@ protocol ___VARIABLE_sceneName___DisplayLogic: AnyObject {
 
 class ___FILEBASENAMEASIDENTIFIER___: UITableViewController {
     var interactor: ___VARIABLE_sceneName___BusinessLogic?
-    var router: (NSObjectProtocol & ___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
+    var router: (___VARIABLE_sceneName___RoutingLogic & ___VARIABLE_sceneName___DataPassing)?
 
     // MARK: Lifecycle
-    init() {
-        super.init(nibName: nil, bundle: nil)
+    init(style: UITableView.Style) {
+        super.init(style: style)
         setupScene()
     }
 
